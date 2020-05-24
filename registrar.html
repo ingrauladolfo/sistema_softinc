@@ -13,7 +13,7 @@
 
 <body class="body">
   <div class="container text-center">
-    <form action="insertar_nuevo_personal.php" method="post" class="form-body">
+    <form action="insertar_nuevo_empleado.php" method="post" class="form-body">
       <h1>
         <p class="text-center" style="columns: #000000;">Zona de registro</p>
       </h1>
@@ -23,9 +23,9 @@
             <center>
               <label for="folio" style="columns: #000000; font-size:25px;">Folio asignado:
               </label>
-              <input type="number" name="folio" min=1 max=999999 id="edad"
+              <input type="number" name="folio" min=1 max=999999 id="folio"
               style="background-color: #000000; border-color: #000000; color:#ffffff; font-size:25px;"
-              class="form-control-number mb-2" required> 
+              class="form-control-number mb-2" placeholder=0123456789 required> 
             </center>
           </div>
           <div class="col-auto text-center">
@@ -41,7 +41,7 @@
             <label for="edad" style="columns: #000000;; font-size:25px;">Edad: </label>
             <input type="number" name="edad" min=18 max=99 id="edad"
               style="background-color: #000000; border-color: #000000; color:#ffffff; font-size:25px;"
-              class="form-control-number mb-2" required> <span class="note"
+              class="form-control-number mb-2" placeholder=18 required> <span class="note"
               style="color:#ffffff; background-color:#000000; font-size:25px;">El número mínimo es 18 y
               máximo 99</span>
           </div>
